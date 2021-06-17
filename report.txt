@@ -1,0 +1,20 @@
+Info: Output directory "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920" created.
+
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-F_Cu.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-In1_Cu.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-In2_Cu.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-B_Cu.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-F_Paste.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-F_Silkscreen.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-F_Mask.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-B_Mask.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-Edge_Cuts.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-F_Cu.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-In1_Cu.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-In2_Cu.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-B_Cu.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-F_Paste.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-F_Silkscreen.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-F_Mask.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-B_Mask.gbr" created.
+Plot file "/mnt/ArtichokeVault/2021/RPiCM4-Array/design5/RPI-CM4IOv5b-Gerber170920/CM4IOv5-Edge_Cuts.gbr" created.

@@ -1,0 +1,168 @@
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid 116847b1-7b60-499c-8b75-9bad84d71893)
+
+  (paper "A4")
+
+  (title_block
+    (title "Compute Module 4 IO Board - Top Level")
+    (rev "1")
+    (company "(c) Raspberry Pi Trading 2020")
+    (comment 1 "www.raspberrypi.org")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Connectors\n-------\nEthernet\nSDCARD\n40way RPI\nJumpers"
+    (at 148.59 96.52 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fcc993c0-82ef-4a6b-bf89-6dc05647d98e)
+  )
+
+  (sheet (at 134.62 71.12) (size 36.83 31.75)
+    (stroke (width 0.1524) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 00000000-0000-0000-0000-00005cff706a)
+    (property "Sheet name" "CM4_GPIO ( Ethernet, GPIO, SDCARD)" (id 0) (at 134.62 105.41 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "CM4_GPIO.kicad_sch" (id 1) (at 134.62 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "ID_SC" output (at 165.1 71.12 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a5120aad-fec7-4d22-ace2-433059bb40c9)
+    )
+    (pin "ID_SD" output (at 161.29 71.12 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid eca3f05e-c43d-488c-8bb6-fbfbfd29d22d)
+    )
+    (pin "CAM_GPIO" output (at 153.67 71.12 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 3f38457d-fa17-4ac4-b912-ef8f5fcc7afe)
+    )
+    (pin "SCL0" output (at 143.51 71.12 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 077503d5-4f25-4f9b-9b99-e1320dbd8fa9)
+    )
+    (pin "SDA0" output (at 139.7 71.12 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid adbcfc8d-7537-480c-b3c5-86ecd4857ba9)
+    )
+    (pin "+5v" input (at 171.45 85.09 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid c64524d4-1707-4e28-b5f4-ff31a505a634)
+    )
+    (pin "+3.3v" output (at 171.45 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 5658f271-d215-4c0a-89b2-28225627d70f)
+    )
+    (pin "nEXTRST" output (at 134.62 91.44 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 8f6a55d2-526c-4527-ba27-d59f41348364)
+    )
+    (pin "GLOBAL_EN" input (at 134.62 85.09 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 086f9ef7-29a2-49d1-b10f-87462b92252c)
+    )
+    (pin "GPIO_VREF" output (at 149.86 71.12 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ab864b83-1fec-4a22-ad29-174200b3b2a8)
+    )
+    (pin "TV_OUT" input (at 157.48 71.12 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ce5af93b-8da2-4d64-aea5-df293f7c58e5)
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-00005cff706a" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e20cb90"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005dcc8bbc"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/f893e7c2-2da1-4043-9dfc-1b304308a515"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/b2fd9828-4c6f-46e3-b231-c801d230adc3"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e15bd87"
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e16bb43"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005ebccb18"
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005ebf0a51"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005ec0fbf3"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005dcc8bb6"
+      (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e286645"
+      (reference "D1") (unit 1) (value "LED Red") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e19548d"
+      (reference "D2") (unit 1) (value "LED Green") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/69087375-fcac-444f-b5c4-6465d988f543"
+      (reference "J1") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005dc6d7d8"
+      (reference "Module1") (unit 1) (value "ComputeModule4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e19768b"
+      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e09a5b2"
+      (reference "R2") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e0adefe"
+      (reference "R3") (unit 1) (value "470R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e28664f"
+      (reference "R10") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/a747e8fd-28f4-402b-969b-2c8e62ca6408"
+      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e5bd558"
+      (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/a22eb5f6-7571-4c09-8390-80cf366e8404"
+      (reference "TP3v3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/9911c670-341c-490e-ad77-dd35068dbf7e"
+      (reference "TP5v1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/89fd8a67-d0c3-4795-bb90-73631c078ab3"
+      (reference "TPGND1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005ea6ace7"
+      (reference "U1") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e48728e"
+      (reference "U2") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005dc9735e"
+      (reference "U3") (unit 1) (value "MagJack-A70-112-331N126") (footprint "CM4IO:TRJG0926HENL")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005d4045a5"
+      (reference "U5") (unit 1) (value "74LVC1G07SE-7") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
+    )
+  )
+)
