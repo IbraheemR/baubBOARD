@@ -101,6 +101,9 @@
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e16bb43"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005cff706a/d3f3e753-10f5-4d24-be30-5efe00a6b405"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005ebccb18"
       (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
@@ -118,6 +121,9 @@
     )
     (path "/00000000-0000-0000-0000-00005cff706a/00000000-0000-0000-0000-00005e19548d"
       (reference "D2") (unit 1) (value "LED Green") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005cff706a/f8189726-3af4-453a-b8ee-e9dd20344978"
+      (reference "D3") (unit 1) (value "SK6812") (footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/00000000-0000-0000-0000-00005cff706a/69087375-fcac-444f-b5c4-6465d988f543"
       (reference "J1") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
